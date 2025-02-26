@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dreadskull Music Official</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1 id="logo-text">Dreadskull Music</h1>
+            <p id="subtitle">Официальный сайт</p>
+        </div>
+        <nav>
+            <ul>
+                <li><button class="tab-link" data-tab="about" onclick="changeTab('about')">About</button></li>
+                <li><button class="tab-link" data-tab="music" onclick="changeTab('music')">Music</button></li>
+                <li><button class="tab-link" data-tab="tracks" onclick="changeTab('tracks')">Tracks</button></li>
+                <li><button class="tab-link" data-tab="collaboration" onclick="changeTab('collaboration')">Collaboration</button></li>
+            </ul>
+            <div class="language-switch">
+                <button onclick="changeLanguage('ru')" class="lang-btn">RU</button>
+                <button onclick="changeLanguage('uk')" class="lang-btn">UA</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Вкладка About -->
+        <section id="about" class="tab-content">
+            <h2 id="about-title">О Dreadskull</h2>
+            <p id="about-text">Привет! Добро пожаловать на мой официальный сайт. Я Dreadskull, официальный исполнитель в жанре Phonk и Funk. Здесь вы можете ознакомиться с моим творчеством и узнать больше о том, как я создаю свою музыку. Если у вас есть желание сотрудничать и создать нечто особенное, не стесняйтесь связаться со мной. Я всегда открыт для новых идей и совместных проектов!</p>
+            <p id="about-info">Этот сайт – это не просто место для моего творчества, но и пространство для возможных коллабораций. Если вы хотите работать вместе, свяжитесь с менеджером!</p>
+        </section>
+
+        <!-- Вкладка Music -->
+        <section id="music" class="tab-content">
+            <h2 id="music-title">Мои треки</h2>
+            <div class="music-gallery">
+                <div class="track">
+                    <h3 id="track1-title">Kjlm</h3>
+                    <iframe src="https://www.youtube.com/embed/7dvU-0AC33U" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" frameborder="0"></iframe>
+                </div>
+                <div class="track">
+                    <h3 id="track2-title">Lukyss</h3>
+                    <iframe src="https://www.youtube.com/embed/PFroq2Q3gYk?si=eYOoch8WEIYmZmNo" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" frameborder="0"></iframe>
+                </div>
+                <div class="track">
+                    <h3 id="track3-title">JGmaf</h3>
+                    <iframe src="https://www.youtube.com/embed/JGmaf_i4NrE?si=XiVH6KYxCezBaZH_" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" frameborder="0"></iframe>
+                </div>
+                <div class="track">
+                    <h3 id="track4-title">PIa9forb</h3>
+                    <iframe src="https://www.youtube.com/embed/PIa9forbNOo?si=3bi_RdtCvLcrR5oJ" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" frameborder="0"></iframe>
+                </div>
+            </div>
+        </section>
+
+        <!-- Вкладка Tracks -->
+        <section id="tracks" class="tab-content">
+            <h2 id="tracks-title">Официальные треки</h2>
+            <p id="tracks-description">Послушайте мои официальные музыкальные треки:</p>
+            <div class="track-links">
+                <a href="https://youtu.be/7dvU-0AC33U" target="_blank" class="track-link">Track Kjlm</a>
+                <a href="https://youtu.be/PFroq2Q3gYk?si=eYOoch8WEIYmZmNo" target="_blank" class="track-link">Track Lukyss</a>
+                <a href="https://youtu.be/JGmaf_i4NrE?si=XiVH6KYxCezBaZH_" target="_blank" class="track-link">Track JGmaf</a>
+                <a href="https://youtu.be/PIa9forbNOo?si=3bi_RdtCvLcrR5oJ" target="_blank" class="track-link">Track PIa9forb</a>
+            </div>
+        </section>
+
+        <!-- Вкладка Collaboration -->
+        <section id="collaboration" class="tab-content">
+            <h2 id="collab-title">Правила для сотрудничества</h2>
+            <p id="collab-text">Если вы хотите сотрудничать с Dreadskull, свяжитесь с менеджером. Все условия будут уточнены менеджером:</p>
+            <ul>
+                <li>1. Необходим опыт работы в FL Studio 21.</li>
+                <li>2. Опыт в музыкальном производстве от 2 лет.</li>
+                <li>3. Возраст 15 лет и старше.</li>
+                <li>4. Необходимо предоставить несколько работ для оценки.</li>
+            </ul>
+            <p id="collab-info">Все условия будут проверены менеджером.</p>
+            <p id="manager-contact">Контакт с менеджером: <a href="https://t.me/exarch_mus_manager" target="_blank">@exarch_mus_manager</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p id="footer-text">&copy; 2025 Dreadskull Music. Все права защищены.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
